@@ -25,13 +25,13 @@ export const CheckEligibility = async (
 
     switch (applicant.name.toLowerCase()) {
       case "boris":
-        cards = ["C1", "C2"];
+        cards = ["C1"];
         break;
       case "theresa":
-        cards = ["C3"];
+        cards = ["C2"];
         break;
       case "angela":
-        cards = ["C2"];
+        cards = ["C1", "C2"];
         break;
       default:
         break;

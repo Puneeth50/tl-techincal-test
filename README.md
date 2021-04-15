@@ -2,19 +2,19 @@
 
 ## Problem statement
 
-A bank has launched 3 new credit card products, C1, C2 and C3. They have built a web app to check the eligibility of the person applying. The app works by the user entering and submitting their name, email and address. The server then responds with the credit cards that person is eligible for.
+A bank has launched 3 new credit card products, C1 and C2. They have built a web app to check the eligibility of the person applying. The app works by the user entering and submitting their name, email and address. The server then responds with the credit cards that person is eligible for.
 
 Before they deploy this web app to production they need to ensure the quality of it and data integrity.
 
 ## Exercise Overview
 
-Write E2E tests for the user journey of applying for a credit card in your choice for framework preferably TestCafe
+Write E2E tests for the user journey of applying for a credit card in your choice of framework preferably TestCafe
 
 1. Entering name, email and address
 2. Submitting the form with a range of different values
 3. The expected response based on the names Boris, Angela and Theresa
 
-Write API tests for TradeLedger API under server/cards/PostDeploymentTests in your choice for framework preferably Cucumber with Java RestAssured or Karate
+Write API tests for TradeLedger API under server/cards/PostDeploymentTests in your choice of framework preferably Cucumber with Java RestAssured or Karate
 
 1. Entering name, email and address
 2. Submitting the form with a range of different values
@@ -32,13 +32,13 @@ Open the project with VS Code, IntelliJ, Eclipse or any other IDE of your choice
 
 FE
 
-1. Go to terminal.
+1. In terminal `cd client/cards`
 2. `npm install` -- to install the app
 3. `npm start` -- to run the app
 
 BE
 
-1. Go to terminal.
+1. In terminal `cd server/cards`
 2. `./gradle build` -- to build the app
 3. `./gradle bootrun` -- to run the app
 
