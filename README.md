@@ -8,7 +8,7 @@ Before they deploy this web app to production they need to ensure the quality of
 
 ## Exercise Overview
 
-Write end-to-end tests for the user journey of applying for a credit card
+Write E2E tests for the user journey of applying for a credit card
 
 1. Entering name, email and address
 2. Submitting the form with a range of different values
@@ -22,16 +22,17 @@ Write end-to-end tests for the user journey of applying for a credit card
 
 ## How to Run
 
-Open the project with IntelliJ, Eclipse, VS Code or any other IDE of your choice
+Open the project with VS Code, IntelliJ, Eclipse or any other IDE of your choice
 
 1. Go to terminal.
 2. `npm install` -- to install the app
 3. `npm start` -- to run the app
-4. Open a new terminal window/tab and run `npm test` to launch TestCafe and execute all tests in `/testcafe/tests.ts`
 
 ## Task
 
-1. In `/testcafe/test.ts`, write all your end-to-end tests with clear descriptions
+1. Using a E2E testing tool/library of your choice, write tests for all possible scenarios of the web app to ensure confidence of it's quality
+2. Create a folder/file to hold all your tests
+3. Add instructions to this README file for running the tests
 
 ## Considerations (only for Solution Design section)
 
