@@ -8,7 +8,13 @@ Before they deploy this web app to production they need to ensure the quality of
 
 ## Exercise Overview
 
-Write E2E tests for the user journey of applying for a credit card
+Write E2E tests for the user journey of applying for a credit card in your choice for framework preferably TestCafe
+
+1. Entering name, email and address
+2. Submitting the form with a range of different values
+3. The expected response based on the names Boris, Angela and Theresa
+
+Write API tests for TradeLedger API under server/cards/PostDeploymentTests in your choice for framework preferably Cucumber with Java RestAssured or Karate
 
 1. Entering name, email and address
 2. Submitting the form with a range of different values
@@ -24,9 +30,17 @@ Write E2E tests for the user journey of applying for a credit card
 
 Open the project with VS Code, IntelliJ, Eclipse or any other IDE of your choice
 
+FE
+
 1. Go to terminal.
 2. `npm install` -- to install the app
 3. `npm start` -- to run the app
+
+BE
+
+1. Go to terminal.
+2. `./gradle build` -- to build the app
+3. `./gradle bootrun` -- to run the app
 
 ## Task
 
