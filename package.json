@@ -15,6 +15,7 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "styled-components": "^5.2.1",
+    "testcafe": "^1.14.0",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -22,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "testcafe": "testcafe chrome"
   },
   "eslintConfig": {
     "extends": [
