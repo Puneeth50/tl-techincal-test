@@ -1,11 +1,12 @@
-package com.tradeledger.cards.thirdparty.eligibility;
+package com.tradeledger.cards.eligibility.service;
 
+import com.tradeledger.cards.eligibility.domain.Applicant;
+import com.tradeledger.cards.eligibility.domain.Eligibility;
 import org.springframework.stereotype.Service;
 
-import com.tradeledger.cards.eligibility.common.domain.Applicant;
-import com.tradeledger.cards.thirdparty.eligibility.Eligibility.EligibilityBuilder;
+import com.tradeledger.cards.eligibility.domain.Eligibility.EligibilityBuilder;
 
-import static com.tradeledger.cards.thirdparty.eligibility.Eligibility.newEligibility;
+import static com.tradeledger.cards.eligibility.domain.Eligibility.newEligibility;
 
 import java.util.stream.Stream;
 

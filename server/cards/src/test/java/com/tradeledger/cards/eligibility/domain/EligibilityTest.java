@@ -1,9 +1,10 @@
-package com.tradeledger.cards.thirdparty.eligibility;
+package com.tradeledger.cards.eligibility.domain;
 
-import static com.tradeledger.cards.thirdparty.eligibility.Eligibility.newEligibility;
+import static com.tradeledger.cards.eligibility.domain.Eligibility.newEligibility;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import com.tradeledger.cards.eligibility.domain.Eligibility;
 import org.junit.jupiter.api.Test;
 
 class EligibilityTest {

@@ -1,4 +1,4 @@
-package com.tradeledger.cards;
+package com.tradeledger.cards.eligibility;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

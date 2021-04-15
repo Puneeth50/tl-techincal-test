@@ -1,5 +1,6 @@
-package com.tradeledger.cards;
+package com.tradeledger.cards.eligibility;
 
+import com.tradeledger.cards.eligibility.CardsApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 

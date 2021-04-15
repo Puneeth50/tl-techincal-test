@@ -1,6 +1,8 @@
-package com.tradeledger.cards.thirdparty.eligibility;
+package com.tradeledger.cards.eligibility.service;
 
-import com.tradeledger.cards.eligibility.common.domain.Applicant;
+import com.tradeledger.cards.eligibility.domain.Applicant;
+import com.tradeledger.cards.eligibility.domain.Eligibility;
+import com.tradeledger.cards.eligibility.service.EligibilityService;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 

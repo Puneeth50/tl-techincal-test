@@ -1,4 +1,4 @@
-package com.tradeledger.cards.eligibility.common.domain;
+package com.tradeledger.cards.eligibility.domain;
 
 import javax.validation.constraints.NotNull;
 

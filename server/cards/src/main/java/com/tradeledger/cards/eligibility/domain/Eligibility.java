@@ -1,4 +1,4 @@
-package com.tradeledger.cards.thirdparty.eligibility;
+package com.tradeledger.cards.eligibility.domain;
 
 import java.util.HashSet;
 import java.util.Set;
