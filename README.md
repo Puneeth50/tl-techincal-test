@@ -2,7 +2,7 @@
 
 ## Problem statement
 
-A bank has launched 3 new credit card products, C1 and C2. They have built a web app to check the eligibility of the person applying. The app works by the user entering and submitting their name, email and address. The server then responds with the credit cards that person is eligible for.
+A bank has launched 2 new credit card products, C1 and C2. They have built a web app to check the eligibility of the person applying. The app works by the user entering and submitting their name, email and address. The server then responds with the credit cards that person is eligible for.
 
 Before they deploy this web app to production they need to ensure the quality of it and data integrity.
 
