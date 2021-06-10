@@ -43,7 +43,7 @@ describe('Happy Path Tests', () => {
         cy.get('.sc-gKsewC').contains(data.Error)
       })
 
-    })
+    })  
 
   })
 })

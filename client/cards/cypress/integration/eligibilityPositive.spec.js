@@ -54,10 +54,6 @@ describe('Happy Path Tests', () => {
       cy.get('.sc-pFZIQ > .sc-jSgupP').contains('Please submit your application to check new cards eligibility')
     })
 
-
-
-
-
   })
 
 
