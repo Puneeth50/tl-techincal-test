@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "6ea5103f-5a79-4826-b617-eae9e02e9ac4",
+		"name": "TL-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "postEligibilityCheck",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name1\":\"Boris\",\"address\":\"test\",\"email\":\"SDET@TL.com\"}"
+				},
+				"url": {
+					"raw": "http://localhost:80/eligibility/check",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"eligibility",
+						"check"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

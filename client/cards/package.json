@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.9"
+    "@types/styled-components": "^5.1.9",
+    "cypress": "^7.5.0"
   }
 }
